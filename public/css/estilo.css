@@ -1,0 +1,36 @@
+.container{
+    white-space: nowrap;      /*Mantener el texto en una sola linea*/
+    overflow: hidden;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background: #B8D7A3;
+    margin: 5px;
+}
+header>img{
+    float:left;
+    width: 10%;
+    height: 80%;
+    margin: 10px;
+}
+header>h1{
+    padding:20px ;
+    overflow: hidden;
+}
+.btn{
+    margin-right: 10px;
+}
+footer {
+    clear:both;
+    background: #7ea2b4;
+}
+.contenido {
+    min-height: 400px;
+    height: 70%;
+    background: #EEEEEE;
+}
+.menu{
+    font-size: 1em;
+}
